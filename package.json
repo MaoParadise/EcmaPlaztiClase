@@ -1,0 +1,19 @@
+{
+  "name": "ecmaclaseplatzi",
+  "version": "1.0.0",
+  "description": "clase para ecmascript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/asincronismo/callback/index.js",
+    "callback:challenge": "node src/asincronismo/callback/challenge.js",
+    "promise" : "node src/asincronismo/promise/index.js",
+    "promise:challenge" : "node src/asincronismo/promise/challenge.js",
+    "async" : "node src/asincronismo/async/index.js",
+    "async:challenge" : "node src/asincronismo/async/challenge.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
