@@ -9,7 +9,7 @@ const anotherFunction = async (url_api) => {
         console.log(data.info.count);
         console.log(character.name);
         console.log(origin.dimension);
-    }catch(error){
+    }catch(error){   
         console.log('Error', error);
     }
 }
